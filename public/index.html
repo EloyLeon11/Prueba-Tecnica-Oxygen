@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Unit Converter</title>
+</head>
+
+<body>
+
+    <div class="layout">
+        <!-- Cabecera  -->
+        <header class="header">
+            <strong>
+                <h1>unit convert</h1>
+            </strong>
+        </header>
+
+        <!-- Contenido principal -->
+        <section class="content">
+
+            <div class="contenedor">
+
+                <h2>convert</h2>
+
+                <div class="fila">
+                    <select name="unidad1" id="unidad1">
+                        <option value="Kilometro">Kilometro</option>
+                        <option value="Milla">Milla</option>
+                        <option value="Metro">Metro</option>
+                        <option value="Pie">Pie</option>
+                        <option value="Centimetro">Centimetro</option>
+                        <option value="Pulgada">Pulgada</option>
+                    </select>
+
+                    <span> → </span>
+
+                    <select name="unidad2" id="unidad2">
+                        <option value="Kilometro">Kilometro</option>
+                        <option value="Milla">Milla</option>
+                        <option value="Metro">Metro</option>
+                        <option value="Pie">Pie</option>
+                        <option value="Centimetro">Centimetro</option>
+                        <option value="Pulgada">Pulgada</option>
+                    </select>
+                </div>
+
+                <input type="number" id="valor" placeholder="Valor">
+
+                <div class="resultado" id="resultado">
+        </section>
+
+        <!-- Pie de pagina -->
+        <footer class="footer">
+            <span class="terms">Terms of service</span>
+            <span>Privacy policy</span>
+        </footer>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
